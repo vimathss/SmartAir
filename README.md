@@ -11,7 +11,7 @@
 
 ## Sobre o Projeto
 
-[**Assista ao vídeo do projeto**](insira-o-link-do-video-aqui)
+[**Assista ao vídeo do projeto**](https://youtu.be/ijp-Gc0nahg)
 
 [**Documento do Projeto**](docs/SmartAir.pdf)
 
