@@ -1,6 +1,6 @@
-# SmartAir: Sistema de Gerenciamento de Ares-Condicionados à Distância
+<img src="docs/SmartAir%20LOGO.png" alt="Logo do Projeto" width="200px"/>
 
-![Logo do Projeto](docs/SmartAir%20LOGO.png)
+# SmartAir: Sistema de Gerenciamento de Ares-Condicionados à Distância
 
 ---
 
