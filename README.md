@@ -46,7 +46,7 @@ O sistema integra conceitos de **Internet das Coisas (IoT)** para proporcionar m
 2. Conecte e rode o banco de dados MySQL  
 3. Abra a solução no Visual Studio 2022  
 4. Execute o projeto  
-5. Acesse com login: **ADM** e senha: **123** (ou utilize a seta de bypass na tela de login)
+5. Acesse com a seta de bypass na tela de login
 
 ## Informações Adicionais
 
