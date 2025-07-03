@@ -1,34 +1,63 @@
- A aplicação virtual do projeto SmartAir, desenvolvida inteiramente com o formato WPF.NET, via Visual
- Studio, é composta por um total de 6 janelas principais. Em ordem respectiva, as janelas representam:
+# SmartAir: Sistema de Gerenciamento de Ares-Condicionados à Distância
 
-- Tela inicial (loading ou carregamento);
-- Tela de Login de Usuário (onde usuários cadastrados poderão acessar a página seguinte);
-- Tela de Menu principal (onde estarão dispostos os acessos ao gerenciamento dos ares-condicionados
-dos laboratórios, anfiteatro e demais ambientes a serem adicionados, além de outras opções de display);
-- Tela de Cadastro de Usuário (onde os usuários não cadastrados poderão cadastrar seus dados);
-- Tela de Cadastro de ESP (onde ESPs de futuros ambientes poderão ser adicionados ao catálogo de gerenciamento);
-- Tela de Cadastro de Laboratório (onde futuros novos laboratórios também poderão ser cadastrados para o
-gerenciamento dos ESPs/ares-condicionados).
+![Logo do Projeto](docs/SmartAir LOGO.png)
 
-  Haverá ainda outras janelas-acessórios que contarão com o controle de gerenciamento dos ares-condicionados e 
-indicativo de temperatura ambiente, as quais serão desenvolvidas posteriormente e poderão ser acessadas via menu
-principal.
+---
 
-  Excetuando a tela inicial, todas as outras janelas estão conectadas com o banco de dados desenvolvido no contexto
-interdisciplinar com a matéria de BD, orientada pela professora Priscila Martins. No código, cada etapa do banco de dados
-e sua respectiva função estão integrados de acordo com a finalidade de cada janela.
+> **Mini Trabalho de Conclusão de Curso** apresentado no componente de **Banco de Dados II** do Curso Técnico em Desenvolvimento de Sistemas integrado ao Ensino Médio, na **ETEC de Hortolândia**, 2024.  
+> Orientação: Prof. Priscila Batista Martins  
 
-  No que tange ao C#, este por sua vez é representado não somente pela linguagem predominante no desenvolvimento da
-aplicação, como também pela utilização de fundamentos apresentados nas aulas de DS, ministradas pelo professor Rafael
-de Colle. No back-end das janelas, conceitos como classes de modelagem, cordiais às entidades do banco de dados outrora
-criado e distribuídas entre construtores (vazios/com parâmetros) métodos get-set (encapsulamento) para os atributos
-(excetuando apenas o requisito da herança pelo fato de a proposta do projeto não contemplar uma classe base capaz de gerar
-classes derivadas).
+---
 
-  As janelas apresentam também classes para Connection Factory, com o intuito de estabelecer e gerenciar a conexão com o BD
-no MySQL. Além disso, o projeto apresenta, em cada classe de modelagem, classes de Data Access Object para que haja uma
-comunicação funcional entre a aplicação e o banco de dados. Isso está vigente principalmente nas telas que remetem ao cadastro,
-seja de dispositivos, ambientes ou usuários, e na tela de login.
+## Sobre o Projeto
 
-  Por fim, o projeto possui uma etapa integrada ao ESP32, que será explicada e demonstrada por meio de uma adaptação com a placa
-de Arduino Uno, apesar de apresentar um contexto similar.
+[**Assista ao vídeo do projeto**](insira-o-link-do-video-aqui)
+
+[**Documento do Projeto**](docs/SmartAir.pdf)
+
+O **SmartAir** é um sistema para gerenciar ares-condicionados à distância, idealizado por nosso grupo com apoio do Prof. Rafael de Colle. O projeto busca alinhar-se aos Objetivos de Desenvolvimento Sustentável (ODS) da ONU, destacando:
+
+- **ODS 7** — Energia limpa e acessível (meta 7.3 - aumentar eficiência energética)  
+- **ODS 9** — Indústria, Inovação e Infraestrutura (meta 9.4 - modernizar infraestrutura)  
+- **ODS 12** — Consumo e Produção Responsáveis (meta 12.2 - uso eficiente de recursos)  
+- **ODS 13** — Ação contra a mudança climática (meta 13.2 - integrar medidas de clima)  
+- **ODS 17** — Parcerias e Meios de Implementação (meta 17.7 - promover transferência de tecnologias sustentáveis)
+
+O projeto consiste em um sistema de gerenciamento remoto, permitindo controlar aparelhos de ar-condicionado por meio de uma aplicação **WPF** conectada ao **ESP32** via Wi-Fi. O ESP32, junto de sensores infravermelhos e emissores IR, transmite códigos de controle em padrão **NEC** para os aparelhos, reproduzindo sinais de controle físico e armazenando os comandos no banco de dados da aplicação. Assim, professores ou técnicos podem controlar remotamente os aparelhos a partir de dispositivos desktop (computadores dos professores ou da manutenção).
+
+A aplicação possui duas telas principais:
+
+- **Tela de Login**: autenticação de usuários (admin ou professores)  
+- **Tela Principal**: interface de gerenciamento dos ares-condicionados
+
+## Tecnologias Utilizadas
+
+- **WPF .NET (C#)**  
+- **MySQL**  
+- **ESP32** (programado em Wiring, baseado em C++)  
+- **Arduino IDE**  
+- **IRremote (biblioteca infravermelho)**  
+
+O sistema integra conceitos de **Internet das Coisas (IoT)** para proporcionar maior praticidade, automação e controle remoto.
+
+## Instalação e Execução
+
+1. Clone ou baixe o projeto  
+2. Conecte e rode o banco de dados MySQL  
+3. Abra a solução no Visual Studio 2022  
+4. Execute o projeto  
+5. Acesse com login: **ADM** e senha: **123** (ou utilize a seta de bypass na tela de login)
+
+## Informações Adicionais
+
+- Projeto inscrito no **Laboratório de IoT** da ETEC de Hortolândia (coordenado pelo Prof. Rafael de Colle) no âmbito do projeto **SIPEP 4.3.01.01 — Tecnologias Digitais, Formação Docente e Divulgação de Conhecimento**  
+- Status: **Em andamento**  
+- Ano: **2024**
+
+## Autores
+
+- **Miguel Trentini Tortella**  
+- **Paulo Eduardo Ferreira Junior**  
+- **Pedro Santana Filipini**  
+- **Vicente Matheus Collin Pedroso**
+
