@@ -28,9 +28,9 @@ O projeto consiste em um sistema de gerenciamento remoto, permitindo controlar a
 A aplicação possui duas telas principais:
 
 - **Tela de Login**: autenticação de usuários (admin ou professores)
-- <img src="docs/Print - Login.png" alt="Projeto" width="1280px"/>
+<img src="docs/Print - Login.png" alt="Projeto" width="1280px"/>
 - **Tela Principal**: interface de gerenciamento dos ares-condicionados
-- - <img src="docs/Print - Painel.png" alt="Projeto" width="1280px"/>
+<img src="docs/Print - Painel.png" alt="Projeto" width="1280px"/>
 
 
 ## Tecnologias Utilizadas
