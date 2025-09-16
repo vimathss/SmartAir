@@ -44,6 +44,16 @@ A aplicação possui duas telas principais:
 
 O sistema integra conceitos de **Internet das Coisas (IoT)** para proporcionar maior praticidade, automação e controle remoto.
 
+## Aprendizados  
+
+O desenvolvimento do **SmartAir** foi uma experiência completa que nos permitiu reforçar e aplicar conhecimentos em diferentes áreas da tecnologia. Entre os principais aprendizados, destacam-se:  
+
+- Desenvolvimento de aplicações desktop em **C# com WPF .NET**, explorando conceitos de interface gráfica e arquitetura em camadas  
+- Integração de banco de dados **MySQL** para armazenamento e gerenciamento das informações do sistema  
+- Programação embarcada no **ESP32** utilizando **Wiring (baseado em C++)** e configuração pela **Arduino IDE**  
+- Uso da biblioteca **IRremote** para captura e envio de sinais infravermelhos, simulando controles remotos físicos  
+- Comunicação entre **hardware e software**, unindo o ESP32 à aplicação desktop para controle em tempo real  
+
 ## Instalação e Execução
 
 1. Clone ou baixe o projeto  
